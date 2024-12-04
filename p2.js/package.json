@@ -1,12 +1,11 @@
 {
-  "name": "@p2js/create-p2-app",
+  "name": "create-p2-app",
   "version": "0.1.0",
   "description": "High Performance React Framework",
   "private": false,
   "type": "module",
   "bin": {
-    "create-p2-app": "./bin/p2.js",
-    "p2": "./bin/p2.js"
+    "create-p2-app": "./bin/p2.js"
   },
   "files": [
     "bin",
