@@ -1,9 +1,14 @@
 #!/usr/bin/env node
 
-const { execSync } = require('child_process');
-const path = require('path');
-const fs = require('fs');
-const prompts = require('prompts');
+import { execSync } from 'child_process';
+import path from 'path';
+import fs from 'fs';
+import prompts from 'prompts';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 async function init() {
   const questions = [
